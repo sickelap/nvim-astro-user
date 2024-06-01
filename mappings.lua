@@ -1,7 +1,5 @@
 return {
   n = {
-    ["<leader>rt"] = { ":TestNearest<cr>", desc = "Run Nearest Test" },
-
     -- increment/decrement numbers
     ["-"] = { "<c-x>", desc = "Descrement number" },
     ["+"] = { "<c-a>", desc = "Increment number" },
